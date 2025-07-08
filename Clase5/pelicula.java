@@ -1,10 +1,10 @@
-public class pelicula {
+public class Pelicula {
     // atributos
     private String titulo;
     private String director;
-    private int duracion; //minutos
+    private int duracion; // minutos
 
-    // Constructor 
+    // Constructor
     public Pelicula() {
         this.titulo = "Sin título";
         this.director = "Desconocido";
@@ -25,7 +25,8 @@ public class pelicula {
         this.duracion = duracion;
     }
 
-    // Getters y Setters (metodos para obtener o modificar los valores de los atributos privados)
+    // Getters y Setters (metodos para obtener o modificar los valores de los
+    // atributos privados)
     public String getTitulo() {
         return titulo;
     }

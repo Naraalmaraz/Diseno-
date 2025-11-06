@@ -18,4 +18,3 @@ public class Moto extends Vehiculo {
         System.out.println("Cilindrada: " + cilindrada + "cc");
     }
 }
-
